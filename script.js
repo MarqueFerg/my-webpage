@@ -11,9 +11,9 @@ function renderTemplate(template, data) {
     return template;
 }
 const template = `
-    <h3>Part1</h3>
-    <p>this is for lab9</p>
-    <p>Author: Mark Ferguoon</p>
+    <h3>Dynamic Title</h3>
+    <p>This is the dynamic content.</p>
+    <p>Author: John Doe</p>
 `;
 const app = document.getElementById('app');
 app.innerHTML = renderTemplate(template, data);
